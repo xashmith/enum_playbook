@@ -68,6 +68,7 @@ sleep 2
 
 ```sh
 gobuster dir -u "http://jewel.uploadvulns.thm/" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 60 -x .phar,.php.phtm
+feroxbuster --insecure --url "https://kobold.htb" --wordlist /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt --threads 100
 ```
 
 ## Passive OS fingerprinting
