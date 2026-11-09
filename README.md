@@ -129,3 +129,7 @@ feroxbuster --insecure --url "https://kobold.htb" --wordlist /usr/share/seclists
 ```sh
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
+
+```sh
+script -qc /bin/bash /dev/null
+```
